@@ -1,0 +1,5 @@
+# Plain static site: no build step, serve files from the repo root.
+# These settings override any build settings saved in the Netlify UI.
+[build]
+  publish = "."
+  command = "echo 'Static site: no build needed'"
